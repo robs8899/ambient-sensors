@@ -1,0 +1,3 @@
+pgrep -l si4432
+pgrep -l si7021
+pgrep -l bmp180

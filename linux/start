@@ -1,0 +1,7 @@
+nohup ./si4432 -d /var/senslog/si4432/ -f /dev/spidev0.0 -i 600 > /dev/null 2>&1 &
+nohup ./si7021 -d /var/senslog/si7021/ -f /dev/i2c-1 -i 600     > /dev/null 2>&1 &
+nohup ./bmp180 -d /var/senslog/bmp180/ -f /dev/i2c-1 -i 600     > /dev/null 2>&1 &
+
+pgrep -l si4432
+pgrep -l si7021
+pgrep -l bmp180

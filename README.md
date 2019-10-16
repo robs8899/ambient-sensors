@@ -1,2 +1,2 @@
 # ambient-sensors
-Some code for different platforms to read out various ambient sensors
+Some code to read out various ambient sensors on different platforms 

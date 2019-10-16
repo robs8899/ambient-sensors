@@ -1,0 +1,7 @@
+pgrep -l si4432
+pgrep -l si7021
+pgrep -l bmp180
+
+pkill si4432
+pkill si7021
+pkill bmp180
