@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry:station xmlns:registry="http://senslog.robs.de/registry"
+  dsp-fmt-smpls="#,##0.00" dsp-fmt-tslng="EEEE yyyy-MM-dd HH:mm zzz"
+  dsp-fmt-tssht="yyyy-MM-dd HH:mm" dsp-locale="US"
+  id="0f91a95d-6f96-4867-b844-b4a8e55310f0" name="Sensor Station Gönnsdorf">
+
+  <registry:location id="f6b6c436-d495-4dbf-99b3-ff6005c50672" name="Outside Area">
+
+    <registry:sensor id="40f3574e-0851-4f22-a593-4a7c84d29812" log-file="yyyyMMdd'.log'"
+      log-fmt-smpls="#.#" log-fmt-tstmp="yyyy-MM-dd HH:mm:ss zzz" log-locale="en_US" name="BMP180"
+      log-path="/var/senslog/bmp180">
+      <registry:sample-value name="Temperature" unit="°C" />
+      <registry:sample-value name="Pressure" unit="hPa" />
+    </registry:sensor>
+
+    <registry:sensor id="16f5ed60-6a58-44c3-a168-00134b0bc978" log-file="yyyyMMdd'.log'"
+      log-fmt-smpls="#.#" log-fmt-tstmp="yyyy-MM-dd HH:mm:ss zzz" log-locale="US" name="Si7021"
+      log-path="/var/senslog/si7021">
+      <registry:sample-value name="Temperature" unit="°C" />
+      <registry:sample-value name="Humidity" unit="%" />
+    </registry:sensor>
+
+  </registry:location>
+
+  <registry:location id="41c76530-7d8c-4875-84d6-dfaca32a5ab1" name="Indoor Level 0">
+
+    <registry:sensor id="cc7f7c74-8f2b-48c5-af28-93bbdf45ef22" log-file="yyyyMMdd'.log'"
+      log-fmt-smpls="#.#" log-fmt-tstmp="yyyy-MM-dd HH:mm:ss zzz" log-locale="en_US" name="Si4432/000"
+      log-path="/var/senslog/si4432/000">
+      <registry:sample-value ignored="true" />
+      <registry:sample-value name="Battery" unit="V" />
+      <registry:sample-value name="Humidity" unit="%" />
+      <registry:sample-value name="Temperature" unit="°C" />
+    </registry:sensor>
+
+    <registry:sensor id="095b4c32-2733-4d06-8705-22d22877e3f1" log-file="yyyyMMdd'.log'"
+      log-fmt-smpls="#.#" log-fmt-tstmp="yyyy-MM-dd HH:mm:ss zzz" log-locale="en_US" name="Si4432/001"
+      log-path="/var/senslog/si4432/001">
+      <registry:sample-value ignored="true" />
+      <registry:sample-value name="Battery" unit="V" />
+      <registry:sample-value name="Humidity" unit="%" />
+      <registry:sample-value name="Temperature" unit="°C" />
+    </registry:sensor>
+
+    <registry:sensor id="ffb928e6-92e3-4e25-8979-74568ba9b5de" log-file="yyyyMMdd'.log'"
+      log-fmt-smpls="#.#" log-fmt-tstmp="yyyy-MM-dd HH:mm:ss zzz" log-locale="en_US" name="Si4432/002"
+      log-path="/var/senslog/si4432/002">
+      <registry:sample-value ignored="true" />
+      <registry:sample-value name="Battery" unit="V" />
+      <registry:sample-value name="Humidity" unit="%" />
+      <registry:sample-value name="Temperature" unit="°C" />
+    </registry:sensor>
+
+  </registry:location>
+
+</registry:station>
